@@ -79,6 +79,8 @@ def run_repl
 			puts find($1.to_i)
 		when /quit/
 			break
+		else
+			"Option not recognized"
 		end
 	end
 end
