@@ -4,10 +4,10 @@ require 'colorize'
 require 'pry'
 require './candidates'
 require './filters'
+require './InvalidCandidate'
 
 ## Your test code can go here
 #binding.pry
 #pp qualified_candidates(@candidates)
 
 run_repl
-

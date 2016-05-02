@@ -3,7 +3,7 @@ require 'active_support/all'
 @candidates = [
   {
     id: 5,
-    years_of_experience: 4,
+    #years_of_experience: 4,
     github_points: 293,
     languages: ['C', 'Ruby', 'Python', 'Clojure'],
     date_applied: 5.days.ago.to_date,
